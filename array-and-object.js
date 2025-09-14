@@ -43,5 +43,18 @@
 // }
 
 
-const person1 = new person("kunal",21,23);
-const person2 = new person("vinay",22,23);
+// const person1 = new person("kunal",21,23);
+// const person2 = new person("vinay",22,23);
+
+
+//creation of arrays
+
+// let arr=[1,2,"kunal",true];
+// console.log(arr);
+
+// console.log(arr[1]);
+
+const arr = [1,2,3,4,5,6];
+// arr.pop();
+arr.splice(1,4,"kunal");
+console.log(arr);
