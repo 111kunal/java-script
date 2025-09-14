@@ -54,7 +54,24 @@
 
 // console.log(arr[1]);
 
-const arr = [1,2,3,4,5,6];
+//const arr = [1,2,"vinay",4,5,"kunal"];
 // arr.pop();
-arr.splice(1,4,"kunal");
-console.log(arr);
+// arr.splice(2,0,"kunal");
+// console.log(arr);
+//using map mathod 
+// let a = arr.map((num)=>num*num);
+//using filter mathod to get only strings
+//##string should be in double quotes
+//     let a =arr.filter((num)=>{if(typeof(num)== "string"){
+//     return true;
+//     }
+//     else{
+//     return false;
+//     }}
+// );
+// console.log(a);
+
+//using reduce mathod
+ let arr = [1,2,3,4,5];
+ let a = arr.reduce((acc,cur)=>acc+cur);
+ console.log(a);
