@@ -72,6 +72,33 @@
 // console.log(a);
 
 //using reduce mathod
- let arr = [1,2,3,4,5];
- let a = arr.reduce((acc,cur)=>acc+cur);
- console.log(a);
+// //👉 The reduce method takes all the values of an array and combines them into one single result.
+// You give it a rule (a function) that explains how to combine the values.
+//  let arr = [1,2,3,4,5];
+//  let a = arr.reduce((acc,cur)=>acc+cur);
+//  console.log(a);
+
+let arr = [3,6,4,5,9,8,7,1,2]
+arr.sort();
+// console.log(arr);
+// console.log(arr.indexOf(4));
+// arr.forEach((value,index) => {
+//     console.log("number:",value,"index:",index);
+// })
+
+
+
+//this is the for in method where for in method print the values of an array 
+// for(let value in arr){
+//     console.log(value);
+// }
+
+
+
+
+//this is the for of method where if it is a string it will print the characters individualy and if it is in an array it will print it outside the array 
+let firstname ="kunal" ;
+let names= ["kunal","vinay","aryan"];
+for(let value of names){
+    console.log(value);
+}
