@@ -24,3 +24,7 @@
 // }
 
 // greet();
+
+// console.log(name);
+// const name = "kunal";
+// console.log(name);
