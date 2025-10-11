@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.navbar li {
+    padding: 20px;
+    list-style: none;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color : black;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: orange;
+    text-decoration: underline;
+}
